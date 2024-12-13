@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbartop {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo1 {
+  padding: 5px;
+  color: burlywood;
+  text-align: center;
+}
+
+nav .logo1 h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav .menu1 {
+  background-color: burlywood;
+  list-style: none;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+nav .menu1 a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav .menu1 a:hover {
+  background-color: brown;
+  cursor: pointer;
+}
+
+.tombol {
+  background: burlywood;
+  color: white;
+}
+
+.tombol:hover {
+  background-color: brown;
+  color: white;
+  cursor: pointer;
+}
+
+.imgModal {
+  align-self: center;
+  padding: 10px;
+}
+
+.imgModal img {
+  width: 250px;
+}

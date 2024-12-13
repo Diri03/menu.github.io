@@ -1,0 +1,72 @@
+[
+    {
+        "name": "Sushi",
+        "price": 20000,
+        "description": "Hidangan khas Jepang berupa nasi yang dibentuk bersama lauk seperti ikan mentah, telur, atau sayuran, bisa disajikan dengan wasabi dan kecap asin.",
+        "link_image": "https://i.imgur.com/GrZDWBW.png",
+        "category_id": 1
+    },
+    {
+        "name": "Rendang",
+        "price": 25000,
+        "description": "Masakan tradisional Indonesia dari daging sapi yang dimasak dengan santan, rempah-rempah, dan bumbu khas hingga empuk dan beraroma harum.",
+        "link_image": "https://i.imgur.com/UpR18vF.png",
+        "category_id": 1
+    },
+    {
+        "name": "Nasi Goreng",
+        "price": 15000,
+        "description": "Makanan khas Indonesia berupa nasi yang digoreng dengan bumbu seperti bawang putih, bawang merah, kecap manis, dan tambahan seperti ayam atau telur.",
+        "link_image": "https://i.imgur.com/bWYsdI5.png",
+        "category_id": 1
+    },
+    {
+        "name": "Spaghetti",
+        "price": 30000,
+        "description": "Hidangan pasta khas Italia yang biasa disajikan dengan saus bolognese, carbonara, atau aglio e olio.",
+        "link_image": "https://i.imgur.com/CFGNsvY.png",
+        "category_id": 1
+    },
+    {
+        "name": "Pizza",
+        "price": 50000,
+        "description": "Roti pipih khas Italia dengan topping seperti keju, saus tomat, daging, sayuran, atau seafood, yang dipanggang hingga matang.",
+        "link_image": "https://i.imgur.com/TafMInZ.png",
+        "category_id": 1
+    },
+    {
+        "name": "Es Teh Manis",
+        "price": 5000,
+        "description": "Minuman sederhana berupa teh yang dicampur gula, disajikan dengan es batu.",
+        "link_image": "https://i.imgur.com/TzZ8age.png",
+        "category_id": 2
+    },
+    {
+        "name": "Jus Jeruk",
+        "price": 10000,
+        "description": "Minuman dari perasan jeruk segar yang disajikan dingin.",
+        "link_image": "https://i.imgur.com/6Z5a8p9.png",
+        "category_id": 2
+    },
+    {
+        "name": "Jus Stroberi",
+        "price": 12000,
+        "description": "Minuman yang dibuat dari stroberi segar yang diblender bersama gula dan es batu.",
+        "link_image": "https://i.imgur.com/GZBok9a.png",
+        "category_id": 2
+    },
+    {
+        "name": "Jus Alpukat",
+        "price": 15000,
+        "description": "Minuman yang terbuat dari alpukat matang yang diblender dengan susu kental manis atau gula, sering dihias dengan cokelat cair.",
+        "link_image": "https://i.imgur.com/BZfRUV7.png",
+        "category_id": 2
+    },
+    {
+        "name": "Air Putih",
+        "price": 3000,
+        "description": "Minuman dasar berupa air mineral yang sehat dan menyegarkan.",
+        "link_image": "https://i.imgur.com/reaJPp8.png",
+        "category_id": 2
+    }
+]
