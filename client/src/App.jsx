@@ -9,7 +9,7 @@ function App() {
   const [cart, setCart] = useState([]);
 
   async function getData() {
-    const url = "https://spotty-eight-wildebeest.glitch.me";
+    const url = "https://spotty-eight-wildebeest.glitch.me/products";
     try {
       const response = await fetch(url);
       if (!response.ok) {
