@@ -32,6 +32,10 @@ function App() {
   ? dataProduct.filter(product => product.category_id === selectedCategory)
   : dataProduct;
 
+  function handleResetCart() {
+    setCart([]);
+  }
+
   function addToCart(product, count) {
     if (count <= 0) {
       alert("Jumlah produk harus lebih dari 0");
@@ -54,7 +58,7 @@ function App() {
 
   return (
     <>
-      <NavBar cart={cart} onCategoryChange={setSelectedCategory}/>
+      <NavBar cart={cart} onCategoryChange={setSelectedCategory} onResetCart={handleResetCart}/>
       <main className='container p-4' style={{ background: "hsl(211, 13%, 94%)" }}>
         <div className="d-flex justify-content-center flex-wrap gap-5 align-items-stretch">
           {filteredProducts.map((product, idx) => (

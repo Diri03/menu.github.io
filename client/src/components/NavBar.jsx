@@ -1,7 +1,7 @@
 import "../App.css";
 import CartItem from "./CartItem";
 
-function NavBar({ cart, onCategoryChange }) {
+function NavBar({ cart, onCategoryChange, onResetCart }) {
   return (
     <>
       <nav className="navbar1">
@@ -32,6 +32,8 @@ function NavBar({ cart, onCategoryChange }) {
         </div>
         <div className="offcanvas-body">
           <CartItem cart={cart} />
+          <button type="button" className="tombol p-1 mt-2" style={{ width: "100%" }} onClick={ onResetCart }>Reset</button>
+          <button type="button" data-bs-dismiss="offcanvas" className="tombol p-1 mt-2" style={{ width: "100%" }} onClick={ () => {onResetCart; alert("Pesanan Sudah Diterima");} }>Pesan</button>
         </div>
       </div>
     </>
