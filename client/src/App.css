@@ -61,3 +61,66 @@ nav .menu1 a:hover {
 .imgModal img {
   width: 250px;
 }
+
+/* login/register */
+
+/* .form-body {
+  background-color: aliceblue;
+} */
+/* Container utama untuk form */
+.container-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  /* background-color: gainsboro; */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Logo header di form */
+.logo1 h1 {
+  /* background-color: burlywood; */
+  color: burlywood;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Input field */
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Tombol submit */
+.tombol2 {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: burlywood;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tombol2:hover {
+  background-color: brown;
+}
+
+/* Link untuk navigasi login/register */
+.link {
+  color: burlywood;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link:hover {
+  color: brown;
+}
