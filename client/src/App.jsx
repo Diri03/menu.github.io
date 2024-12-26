@@ -14,8 +14,8 @@ function App() {
 
   // Fungsi untuk mendapatkan data produk
   async function getData() {
-    // const url = "https://menu-github-io-server.vercel.app/api/products";
-    const url = "http://localhost:3000/api/products";
+    const url = "https://menu-github-io-server.vercel.app/api/products";
+    // const url = "http://localhost:3000/api/products";
     try {
       const response = await fetch(url);
       if (!response.ok) {
