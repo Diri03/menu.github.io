@@ -13,7 +13,7 @@ function Register({ onLogin }) {
     }
 
     try {
-        register_url = "https://spotty-eight-wildebeest.glitch.me/api/auth/register"
+        register_url = "https://menu-github-io-server.vercel.app/api/auth/register"
         const response = await fetch(register_url, {
             method: "POST",
             headers: {
