@@ -5,6 +5,7 @@ require('dotenv').config();
 
 // Fungsi login
 async function login(req, res) {
+  console.log('JWT_SECRET:', process.env.JWT_SECRET);
   const { username, password } = req.body;
 
   if (!username || !password) {
@@ -32,8 +33,8 @@ async function login(req, res) {
 
     res.json({ message: "Login successful", token });
   } catch (err) {
-    console.log(err);
-    res.status(500).json({ message: "Internal Server Error" });
+    console.error('Error in register:', error.message, error.stack);
+    return res.status(500).json({ message: 'Internal Server Error' });
   }
 }
 
