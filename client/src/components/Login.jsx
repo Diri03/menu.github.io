@@ -13,7 +13,8 @@ function Login({ onRegister, onSuccessLogin }) {
       }
     
       try {
-        login_url = "https://menu-github-io-server.vercel.app/api/auth/login"
+        const login_url = "https://menu-github-io-server.vercel.app/api/auth/login"
+        // const login_url = "http://localhost:3000/api/auth/login";
         const response = await fetch(login_url, {
           method: "POST",
           headers: {

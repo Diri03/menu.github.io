@@ -13,7 +13,8 @@ function Register({ onLogin }) {
     }
 
     try {
-        register_url = "https://menu-github-io-server.vercel.app/api/auth/register"
+        const register_url = "https://menu-github-io-server.vercel.app/api/auth/register"
+        // const register_url = "http://localhost:3000/api/auth/register";
         const response = await fetch(register_url, {
             method: "POST",
             headers: {
